@@ -21,7 +21,7 @@ if(isset($_POST["submit"])){
         $_SESSION["msg"]="Something Wrong. Unable to add image";
     }
 
-    header("location:test.php");
+    header("location:index.php");
     exit();
 }
 ?>

@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	background-color: aquamarine;
+}
+
+div{
+	width: 30%;
+	display: block;
+	top: 0;
+	background-color: aqua;
+	margin: 0 auto;
+	padding: 15px;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 1px solid #0F3252;
+}
+
+div h1,form{
+	text-transform: capitalize;
+	text-align: center;
+	width: 100%;
+/*	border: 1px solid #000000;*/
+}
+
+div form input{
+	display: block;
+	margin: 10px;
+	height: 30px;
+}
+
+#button{
+	text-align: center;
+	background-color: darkcyan;
+	border: none;
+	margin: 0 auto;
+	width: 200px;
+	color: ghostwhite;
+}
+
+
